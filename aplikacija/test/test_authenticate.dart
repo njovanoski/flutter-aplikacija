@@ -17,5 +17,29 @@ void main(List<String> args) {
       expect(await MainModel().authenticate(email, password, AuthMode.Login),
           equals({'success': true, 'message': 'Authentication succeeded!'}));
     });
+     test('Login returns successfully along with a successful authentication(?)',
+        () async {
+      final email = 'test1@test.com';
+      final password = 'tester';
+
+      expect(await MainModel().authenticate(email, password, AuthMode.Login),
+          equals({'success': false, 'message': 'This email already exists.'}));
+    });
+     test('Login returns successfully along with a successful authentication(?)',
+        () async {
+      final email = 'test1@test.com';
+      final password = 'tester';
+
+      expect(await MainModel().authenticate(email, password, AuthMode.Login),
+          equals({'success': false, 'message': 'This email was not found'}));
+    });
+     test('Login returns successfully along with a successful authentication(?)',
+        () async {
+      final email = 'test1@test.com';
+      final password = 'tester';
+
+      expect(await MainModel().authenticate(email, password, AuthMode.Login),
+          equals({'success': false, 'message': 'Something went wrong.'}));
+    });
   });
 }
