@@ -365,13 +365,13 @@ mixin UserModel on ConnectedProductsModel {
     http.Response response;
     if (mode == AuthMode.Login) {
       response = await http.post(
-        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAxgIztWNLV_0Xs9wqSo7rOosSKThxsaxg',
+        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=',
         body: json.encode(authData),
         headers: {'Content-Type': 'application/json'},
       );
     } else {
       response = await http.post(
-        'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAxgIztWNLV_0Xs9wqSo7rOosSKThxsaxg',
+        'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=',
         body: json.encode(authData),
         headers: {'Content-Type': 'aplication/json'},
       );
