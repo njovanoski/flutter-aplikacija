@@ -1,0 +1,840 @@
+{
+  "events": [{
+    "sourceScreenId": "0",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 2.689,
+    "endTimeSeconds": 4.39,
+    "executionResult": "SUCCESS",
+    "launch": {
+      "action": "android.intent.action.MAIN"
+    }
+  }, {
+    "sequence": 1,
+    "sourceScreenId": "1",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 7.513,
+    "endTimeSeconds": 7.632,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 2,
+    "sourceScreenId": "2",
+    "destinationScreenId": "3",
+    "startTimeSeconds": 11.196,
+    "endTimeSeconds": 11.311,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 3,
+    "sourceScreenId": "3",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 15.143,
+    "endTimeSeconds": 15.262,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 4,
+    "sourceScreenId": "4",
+    "destinationScreenId": "5",
+    "startTimeSeconds": 19.018,
+    "endTimeSeconds": 19.132,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 5,
+    "sourceScreenId": "5",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 23.019,
+    "endTimeSeconds": 23.181,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 6,
+    "sourceScreenId": "6",
+    "destinationScreenId": "7",
+    "startTimeSeconds": 26.533,
+    "endTimeSeconds": 26.65,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 7,
+    "sourceScreenId": "7",
+    "destinationScreenId": "8",
+    "startTimeSeconds": 30.35,
+    "endTimeSeconds": 30.468,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 8,
+    "sourceScreenId": "8",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 34.188,
+    "endTimeSeconds": 34.307,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 9,
+    "sourceScreenId": "9",
+    "destinationScreenId": "10",
+    "startTimeSeconds": 37.757,
+    "endTimeSeconds": 37.878,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 10,
+    "sourceScreenId": "10",
+    "destinationScreenId": "11",
+    "startTimeSeconds": 41.423,
+    "endTimeSeconds": 41.549,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 11,
+    "sourceScreenId": "11",
+    "destinationScreenId": "12",
+    "startTimeSeconds": 44.854,
+    "endTimeSeconds": 44.969,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 12,
+    "sourceScreenId": "12",
+    "destinationScreenId": "13",
+    "startTimeSeconds": 48.52,
+    "endTimeSeconds": 48.644,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 13,
+    "sourceScreenId": "13",
+    "destinationScreenId": "14",
+    "startTimeSeconds": 52.051,
+    "endTimeSeconds": 52.172,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 14,
+    "sourceScreenId": "14",
+    "destinationScreenId": "15",
+    "startTimeSeconds": 55.675,
+    "endTimeSeconds": 55.796,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 15,
+    "sourceScreenId": "15",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 59.157,
+    "endTimeSeconds": 59.281,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 16,
+    "sourceScreenId": "16",
+    "destinationScreenId": "17",
+    "startTimeSeconds": 62.801,
+    "endTimeSeconds": 62.923,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 17,
+    "sourceScreenId": "17",
+    "destinationScreenId": "18",
+    "startTimeSeconds": 66.399,
+    "endTimeSeconds": 66.528,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 18,
+    "sourceScreenId": "18",
+    "destinationScreenId": "19",
+    "startTimeSeconds": 69.936,
+    "endTimeSeconds": 70.074,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 19,
+    "sourceScreenId": "19",
+    "destinationScreenId": "20",
+    "startTimeSeconds": 73.639,
+    "endTimeSeconds": 73.765,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 20,
+    "sourceScreenId": "20",
+    "destinationScreenId": "21",
+    "startTimeSeconds": 77.061,
+    "endTimeSeconds": 77.184,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 21,
+    "sourceScreenId": "21",
+    "destinationScreenId": "22",
+    "startTimeSeconds": 80.627,
+    "endTimeSeconds": 80.758,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 22,
+    "sourceScreenId": "22",
+    "destinationScreenId": "23",
+    "startTimeSeconds": 84.01,
+    "endTimeSeconds": 84.135,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 23,
+    "sourceScreenId": "23",
+    "destinationScreenId": "24",
+    "startTimeSeconds": 87.458,
+    "endTimeSeconds": 87.577,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 24,
+    "sourceScreenId": "24",
+    "destinationScreenId": "25",
+    "startTimeSeconds": 91.061,
+    "endTimeSeconds": 91.19,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 25,
+    "sourceScreenId": "25",
+    "destinationScreenId": "26",
+    "startTimeSeconds": 94.474,
+    "endTimeSeconds": 94.593,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 26,
+    "sourceScreenId": "26",
+    "destinationScreenId": "27",
+    "startTimeSeconds": 98.207,
+    "endTimeSeconds": 98.325,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 27,
+    "sourceScreenId": "27",
+    "destinationScreenId": "28",
+    "startTimeSeconds": 101.876,
+    "endTimeSeconds": 102.006,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 28,
+    "sourceScreenId": "28",
+    "destinationScreenId": "29",
+    "startTimeSeconds": 105.522,
+    "endTimeSeconds": 105.64,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 29,
+    "sourceScreenId": "29",
+    "destinationScreenId": "30",
+    "startTimeSeconds": 109.002,
+    "endTimeSeconds": 109.126,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 30,
+    "sourceScreenId": "30",
+    "destinationScreenId": "31",
+    "startTimeSeconds": 112.281,
+    "endTimeSeconds": 112.407,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 31,
+    "sourceScreenId": "31",
+    "destinationScreenId": "32",
+    "startTimeSeconds": 115.643,
+    "endTimeSeconds": 115.78,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 32,
+    "sourceScreenId": "32",
+    "destinationScreenId": "33",
+    "startTimeSeconds": 119.124,
+    "endTimeSeconds": 119.25,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 33,
+    "sourceScreenId": "33",
+    "destinationScreenId": "34",
+    "startTimeSeconds": 122.719,
+    "endTimeSeconds": 122.845,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 34,
+    "sourceScreenId": "34",
+    "destinationScreenId": "35",
+    "startTimeSeconds": 125.893,
+    "endTimeSeconds": 126.019,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 35,
+    "sourceScreenId": "35",
+    "destinationScreenId": "36",
+    "startTimeSeconds": 129.549,
+    "endTimeSeconds": 130.691,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 36,
+    "sourceScreenId": "36",
+    "destinationScreenId": "37",
+    "startTimeSeconds": 132.636,
+    "endTimeSeconds": 135.306,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.0.0.0.0.1.0.0.1",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "com.android.packageinstaller:id/permission_allow_button",
+        "className": "android.widget.Button",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "ALLOW"
+      }
+    }
+  }, {
+    "sequence": 37,
+    "sourceScreenId": "37",
+    "destinationScreenId": "38",
+    "startTimeSeconds": 137.788,
+    "endTimeSeconds": 137.902,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 38,
+    "sourceScreenId": "38",
+    "destinationScreenId": "39",
+    "startTimeSeconds": 141.281,
+    "endTimeSeconds": 141.401,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 39,
+    "sourceScreenId": "39",
+    "destinationScreenId": "40",
+    "startTimeSeconds": 144.721,
+    "endTimeSeconds": 144.845,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 40,
+    "sourceScreenId": "40",
+    "destinationScreenId": "41",
+    "startTimeSeconds": 148.362,
+    "endTimeSeconds": 148.479,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 41,
+    "sourceScreenId": "41",
+    "destinationScreenId": "42",
+    "startTimeSeconds": 151.682,
+    "endTimeSeconds": 151.812,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 42,
+    "sourceScreenId": "42",
+    "destinationScreenId": "43",
+    "startTimeSeconds": 155.318,
+    "endTimeSeconds": 155.432,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 43,
+    "sourceScreenId": "43",
+    "destinationScreenId": "44",
+    "startTimeSeconds": 165.342,
+    "endTimeSeconds": 165.473,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 44,
+    "sourceScreenId": "44",
+    "destinationScreenId": "45",
+    "startTimeSeconds": 168.689,
+    "endTimeSeconds": 168.806,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 45,
+    "sourceScreenId": "45",
+    "destinationScreenId": "46",
+    "startTimeSeconds": 172.764,
+    "endTimeSeconds": 172.886,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 46,
+    "sourceScreenId": "46",
+    "destinationScreenId": "47",
+    "startTimeSeconds": 176.315,
+    "endTimeSeconds": 176.44,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 47,
+    "sourceScreenId": "47",
+    "destinationScreenId": "48",
+    "startTimeSeconds": 179.646,
+    "endTimeSeconds": 179.77,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 48,
+    "sourceScreenId": "48",
+    "destinationScreenId": "49",
+    "startTimeSeconds": 183.088,
+    "endTimeSeconds": 183.207,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 49,
+    "sourceScreenId": "49",
+    "destinationScreenId": "50",
+    "startTimeSeconds": 186.496,
+    "endTimeSeconds": 186.621,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 50,
+    "sourceScreenId": "50",
+    "destinationScreenId": "51",
+    "startTimeSeconds": 190.431,
+    "endTimeSeconds": 190.549,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 51,
+    "sourceScreenId": "51",
+    "destinationScreenId": "52",
+    "startTimeSeconds": 193.859,
+    "endTimeSeconds": 193.985,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 52,
+    "sourceScreenId": "52",
+    "destinationScreenId": "53",
+    "startTimeSeconds": 197.443,
+    "endTimeSeconds": 197.567,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 53,
+    "sourceScreenId": "53",
+    "destinationScreenId": "54",
+    "startTimeSeconds": 200.92,
+    "endTimeSeconds": 201.047,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 54,
+    "sourceScreenId": "54",
+    "destinationScreenId": "55",
+    "startTimeSeconds": 204.265,
+    "endTimeSeconds": 204.388,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 55,
+    "sourceScreenId": "55",
+    "destinationScreenId": "56",
+    "startTimeSeconds": 207.68,
+    "endTimeSeconds": 207.817,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 56,
+    "sourceScreenId": "56",
+    "destinationScreenId": "57",
+    "startTimeSeconds": 211.393,
+    "endTimeSeconds": 211.519,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 57,
+    "sourceScreenId": "57",
+    "destinationScreenId": "58",
+    "startTimeSeconds": 214.775,
+    "endTimeSeconds": 214.893,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 58,
+    "sourceScreenId": "58",
+    "destinationScreenId": "59",
+    "startTimeSeconds": 218.193,
+    "endTimeSeconds": 218.311,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 59,
+    "sourceScreenId": "59",
+    "destinationScreenId": "60",
+    "startTimeSeconds": 221.61,
+    "endTimeSeconds": 221.727,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 60,
+    "sourceScreenId": "60",
+    "destinationScreenId": "61",
+    "startTimeSeconds": 225.063,
+    "endTimeSeconds": 225.179,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 61,
+    "sourceScreenId": "61",
+    "destinationScreenId": "62",
+    "startTimeSeconds": 228.826,
+    "endTimeSeconds": 228.946,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 62,
+    "sourceScreenId": "62",
+    "destinationScreenId": "63",
+    "startTimeSeconds": 232.273,
+    "endTimeSeconds": 232.394,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 63,
+    "sourceScreenId": "63",
+    "destinationScreenId": "64",
+    "startTimeSeconds": 235.727,
+    "endTimeSeconds": 235.858,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 64,
+    "sourceScreenId": "64",
+    "destinationScreenId": "65",
+    "startTimeSeconds": 239.412,
+    "endTimeSeconds": 239.537,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 65,
+    "sourceScreenId": "65",
+    "destinationScreenId": "66",
+    "startTimeSeconds": 243.085,
+    "endTimeSeconds": 243.264,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 66,
+    "sourceScreenId": "66",
+    "destinationScreenId": "67",
+    "startTimeSeconds": 246.535,
+    "endTimeSeconds": 246.666,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 67,
+    "sourceScreenId": "67",
+    "destinationScreenId": "68",
+    "startTimeSeconds": 249.977,
+    "endTimeSeconds": 250.097,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 68,
+    "sourceScreenId": "68",
+    "destinationScreenId": "69",
+    "startTimeSeconds": 253.589,
+    "endTimeSeconds": 253.713,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 69,
+    "sourceScreenId": "69",
+    "destinationScreenId": "70",
+    "startTimeSeconds": 257.018,
+    "endTimeSeconds": 257.172,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 70,
+    "sourceScreenId": "70",
+    "destinationScreenId": "71",
+    "startTimeSeconds": 260.672,
+    "endTimeSeconds": 260.794,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 71,
+    "sourceScreenId": "71",
+    "destinationScreenId": "72",
+    "startTimeSeconds": 264.323,
+    "endTimeSeconds": 264.471,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 72,
+    "sourceScreenId": "72",
+    "destinationScreenId": "73",
+    "startTimeSeconds": 267.825,
+    "endTimeSeconds": 267.947,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 73,
+    "sourceScreenId": "73",
+    "destinationScreenId": "74",
+    "startTimeSeconds": 271.271,
+    "endTimeSeconds": 271.411,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 74,
+    "sourceScreenId": "74",
+    "destinationScreenId": "75",
+    "startTimeSeconds": 275.091,
+    "endTimeSeconds": 275.214,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 75,
+    "sourceScreenId": "75",
+    "destinationScreenId": "76",
+    "startTimeSeconds": 278.75,
+    "endTimeSeconds": 278.875,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 76,
+    "sourceScreenId": "76",
+    "destinationScreenId": "77",
+    "startTimeSeconds": 282.372,
+    "endTimeSeconds": 282.507,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 77,
+    "sourceScreenId": "77",
+    "destinationScreenId": "78",
+    "startTimeSeconds": 285.965,
+    "endTimeSeconds": 286.088,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 78,
+    "sourceScreenId": "78",
+    "destinationScreenId": "79",
+    "startTimeSeconds": 289.658,
+    "endTimeSeconds": 289.775,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 79,
+    "sourceScreenId": "79",
+    "destinationScreenId": "80",
+    "startTimeSeconds": 293.046,
+    "endTimeSeconds": 293.16,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 80,
+    "sourceScreenId": "80",
+    "destinationScreenId": "81",
+    "startTimeSeconds": 296.58,
+    "endTimeSeconds": 296.697,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 81,
+    "sourceScreenId": "81",
+    "destinationScreenId": "82",
+    "startTimeSeconds": 300.193,
+    "endTimeSeconds": 300.335,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }, {
+    "sequence": 82,
+    "sourceScreenId": "82",
+    "destinationScreenId": "83",
+    "startTimeSeconds": 303.716,
+    "endTimeSeconds": 303.833,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 1
+    }
+  }]
+}
