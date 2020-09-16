@@ -27,4 +27,19 @@ class Product {
       @required this.location,
       @required this.imagePath,
       this.isFavorite = false});
+  @override
+  String toString() {
+    return 'Product{ '
+        'id: $id'
+        ', title: $title'
+        ', description: $description, '
+        ', price: $price'
+        ', image: $image'
+        ', userEmail: $userEmail'
+        ', userId: $userId'
+        ', location: $location'
+        ', imagePath: $imagePath'
+        ', isFavorite: $isFavorite'
+        ' }';
+  }
 }

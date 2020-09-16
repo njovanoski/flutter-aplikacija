@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:scoped_model/scoped_model.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 import './product_edit.dart';
 import '../scoped-models/main.dart';
@@ -65,7 +66,9 @@ class _ProductListPageState extends State<ProductListPage> {
                   ListTile(
                     leading: CircleAvatar(
                       backgroundImage:
-                          NetworkImage(model.allProducts[index].image),
+                          //NetworkImage(model.allProducts[index].image),
+                          CachedNetworkImageProvider(
+                              model.allProducts[index].image),
                     ),
                     title: Text(model.allProducts[index].title),
                     subtitle:

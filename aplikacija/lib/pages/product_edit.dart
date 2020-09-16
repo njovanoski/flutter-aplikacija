@@ -63,8 +63,8 @@ class _ProductEditPageState extends State<ProductEditPage> {
   final _titleTextController = TextEditingController();
   final _descriptionTextController = TextEditingController();
   final _priceTextController = TextEditingController();
-
-  Widget _buildTitleTextField(Product product) {
+  @visibleForTesting
+  Widget buildTitleTextField(Product product) {
     if (product == null && _titleTextController.text.trim() == '') {
       _titleTextController.text = '';
     } else if (product != null && _titleTextController.text.trim() == '') {
@@ -77,22 +77,24 @@ class _ProductEditPageState extends State<ProductEditPage> {
       _titleTextController.text = '';
     }
     return Material(
+        key: Key('TitleFormField'),
         child: EnsureVisibleWhenFocused(
-      focusNode: _titleFocusNode,
-      child: TextFormField(
-        focusNode: _titleFocusNode,
-        decoration: InputDecoration(labelText: 'Product Title'),
-        controller: _titleTextController,
-        // initialValue: product == null ? '' : product.title,
-        // ignore: missing_return
-        validator: (String value) => BuildTitleTextValidator.validate(value),
-        // if (value.trim().length <= 0) {
+          focusNode: _titleFocusNode,
+          child: TextFormField(
+            focusNode: _titleFocusNode,
+            decoration: InputDecoration(labelText: 'Product Title'),
+            controller: _titleTextController,
+            // initialValue: product == null ? '' : product.title,
+            // ignore: missing_return
+            validator: (String value) =>
+                BuildTitleTextValidator.validate(value),
+            // if (value.trim().length <= 0) {
 
-        onSaved: (String value) {
-          _formData['title'] = value;
-        },
-      ),
-    ));
+            onSaved: (String value) {
+              _formData['title'] = value;
+            },
+          ),
+        ));
   }
 
   Widget _buildDescriptionTextField(Product product) {
@@ -175,7 +177,7 @@ class _ProductEditPageState extends State<ProductEditPage> {
           child: ListView(
             padding: EdgeInsets.symmetric(horizontal: targetPadding / 2),
             children: <Widget>[
-              _buildTitleTextField(product),
+              buildTitleTextField(product),
               _buildDescriptionTextField(product),
               _buildPriceTextField(product),
               SizedBox(
